@@ -1,0 +1,73 @@
+.note
+{
+
+    background-color: #ffffff;
+    border-radius:  15px ;
+   
+    color: red;
+    padding: 15px;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+.note__footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.note__delete
+{
+    cursor: pointer;
+}
+.note__delete:hover
+{
+   transform: scale(1.6);
+}
+
+
+
+
+/* CreateNote.jsx */
+
+.note__save:hover
+{
+  background: transparent;
+transition: 0.1s ease-in-out;
+border: 1.5px solid #fff;
+border-radius: 10px;
+color: #fff;
+padding: 4px 10px;
+font-size: 13px;
+cursor: pointer;
+}
+
+.note__save:hover
+{
+    background: #fff;
+    border: 1.5px solid #fff;
+    color: #4b1589;
+}
+
+.note textarea
+{
+    white-space: pre-wrap;
+   
+    border: none;
+    color: red;
+    resize: none;
+    font-size: 16px;
+}
+
+
+.char__progress
+{
+    background-color: #fff!important;
+}
+
+
+
+
